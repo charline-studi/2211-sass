@@ -1,0 +1,15 @@
+body {
+  background-color: purple;
+  color: white;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.list {
+  background-color: grey;
+}
+.list li {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
