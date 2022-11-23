@@ -19,8 +19,8 @@ Durant les lives nous allons aborder de façon théorique les différentes fonct
 
 | Numéro | Date       | Heure         | Type      | Titre                      | Replay                |
 | ------ | ---------- | ------------- | --------- | -------------------------- | --------------------- |
-| 01     | 21/11/2022 | 10h - 11h     | Théorique | Découverte et installation | pas encore disponible |
-| 02     | 23/11/2022 | 18h30 - 19h30 | Pratique  | "On recode Shine"          | pas encore disponible |
+| 01     | 21/11/2022 | 10h - 11h     | Théorique | Découverte et installation | https://app.studi.fr/#/dashboard/events/43025/replay |
+| 02     | 23/11/2022 | 18h30 - 19h30 | Pratique  | "On recode Shine"          | https://app.studi.fr/#/dashboard/events/43026/replay |
 | 03     | 28/11/2022 | 10h - 11h     | Théorique | Imbrication et variables   | pas encore disponible |
 | 04     | 01/12/2022 | 18h30 - 19h30 | Pratique  | On recode Shine"           | pas encore disponible |
 | 05     | 05/12/2022 | 10h - 11h     | Théorique | Héritage et extend         | pas encore disponible |
