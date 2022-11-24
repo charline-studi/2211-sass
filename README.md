@@ -33,3 +33,5 @@ Durant les lives nous allons aborder de façon théorique les différentes fonct
 ## Ressources
 
 - [📖 Documentation Officielle Sass - EN](https://sass-lang.com/)
+- [Shine - Typo Playfair](https://fonts.google.com/specimen/Playfair+Display?category=Serif)
+- [Shine - Typo Rubik](https://fonts.google.com/specimen/Rubik?query=rubik&category=Sans+Serif)
