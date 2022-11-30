@@ -22,7 +22,7 @@ Durant les lives nous allons aborder de façon théorique les différentes fonct
 | 01     | 21/11/2022 | 10h - 11h     | Théorique | Découverte et installation | https://app.studi.fr/#/dashboard/events/43025/replay |
 | 02     | 23/11/2022 | 18h30 - 19h30 | Pratique  | "On recode Shine"          | https://app.studi.fr/#/dashboard/events/43026/replay |
 | 03     | 28/11/2022 | 10h - 11h     | Théorique | Imbrication et variables   | https://app.studi.fr/#/dashboard/events/43027/replay |
-| 04     | 30/11/2022 | 18h30 - 19h30 | Pratique  | On recode Shine"           | pas encore disponible |
+| 04     | 30/11/2022 | 18h30 - 19h30 | Pratique  | On recode Shine"           | https://app.studi.fr/#/dashboard/events/43028/replay |
 | 05     | 05/12/2022 | 10h - 11h     | Théorique | Héritage et extend         | pas encore disponible |
 | 06     | 08/12/2022 | 18h30 - 19h30 | Pratique  | "On recode Shine"          | pas encore disponible |
 | 07     | 13/12/2022 | 10h - 11h     | Théorique | Fonctions et mixins        | pas encore disponible |
@@ -35,3 +35,4 @@ Durant les lives nous allons aborder de façon théorique les différentes fonct
 - [📖 Documentation Officielle Sass - EN](https://sass-lang.com/)
 - [Shine - Typo Playfair](https://fonts.google.com/specimen/Playfair+Display?category=Serif)
 - [Shine - Typo Rubik](https://fonts.google.com/specimen/Rubik?query=rubik&category=Sans+Serif)
+- [Convertisseur px - rem](https://nekocalc.com/fr/px-a-rem-convertisseur)
