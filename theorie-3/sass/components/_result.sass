@@ -1,0 +1,16 @@
+@use "../base/_typo" 
+
+.result
+    border: solid 1px black
+    .message
+        @extend .text-paragraphe
+        font-style: italic
+        font-weight: bold
+
+        &--error
+            @extend .message
+            color: red
+
+        &--success
+            @extend .message
+            color: green

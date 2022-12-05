@@ -1,0 +1,36 @@
+.hero h2 {
+  text-transform: uppercase;
+}
+
+.title-1, .hero .main-title {
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.text-paragraphe, .result .message, .result .message--error, .result .message--success, .hero p {
+  font-size: 18px;
+}
+
+.text-blue, .hero .main-title {
+  color: blue;
+}
+
+.hero {
+  background-color: tomato;
+}
+.hero p {
+  color: white;
+}
+.result {
+  border: solid 1px black;
+}
+.result .message, .result .message--success, .result .message--error {
+  font-style: italic;
+  font-weight: bold;
+}
+.result .message--error {
+  color: red;
+}
+.result .message--success {
+  color: green;
+}/*# sourceMappingURL=style.css.map */
