@@ -20,18 +20,24 @@ ul {
   margin-right: auto;
 }
 
-.title-1 {
+.home-cover__title {
   font-family: "Playfair Display", serif;
+}
+
+.button, .button--blue, .home-cover__paragraphe, .header__list {
+  font-family: "Rubik", sans-serif;
+  font-size: 1rem;
+}
+
+.home-cover__paragraphe, .header__list {
+  color: #455980;
+}
+
+.home-cover__title {
   color: #17294d;
 }
 
-.title-2 {
-  font-family: "Rubik", sans-serif;
-}
-
-.paragraphe {
-  font-family: "Rubik", sans-serif;
-  font-size: 1rem;
+.home-cover__title span {
   color: #0c6cf3;
 }
 
@@ -53,4 +59,30 @@ ul {
 .header__list {
   display: flex;
   column-gap: 1rem;
+}
+
+.home-cover {
+  background-color: #f1f7fd;
+}
+.button, .button--blue {
+  border-radius: 1rem;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.button:not(.button--blue):hover, .button--blue:not(.button--blue):hover {
+  color: #0c6cf3;
+}
+.button__icon {
+  fill: inherit;
+}
+.button--blue {
+  background-color: #0c6cf3;
+  color: #FFFFFF;
+  transition: 0.5s ease-in;
+  fill: #FFFFFF;
+}
+.button--blue:hover {
+  background-color: #074192;
 }/*# sourceMappingURL=style.css.map */

@@ -24,7 +24,7 @@ Durant les lives nous allons aborder de façon théorique les différentes fonct
 | 03     | 28/11/2022 | 10h - 11h     | Théorique | Imbrication et variables   | https://app.studi.fr/#/dashboard/events/43027/replay |
 | 04     | 30/11/2022 | 18h30 - 19h30 | Pratique  | On recode Shine"           | https://app.studi.fr/#/dashboard/events/43028/replay |
 | 05     | 05/12/2022 | 10h - 11h     | Théorique | Héritage et extend         | https://app.studi.fr/#/dashboard/events/43029/replay |
-| 06     | 08/12/2022 | 18h30 - 19h30 | Pratique  | "On recode Shine"          | pas encore disponible |
+| 06     | 08/12/2022 | 18h30 - 19h30 | Pratique  | "On recode Shine"          | https://app.studi.fr/#/dashboard/events/43030/replay |
 | 07     | 13/12/2022 | 10h - 11h     | Théorique | Fonctions et mixins        | pas encore disponible |
 | 08     | 15/12/2022 | 18h30 - 19h30 | Pratique  | "On recode Shine"          | pas encore disponible |
 | 09     | 19/12/2022 | 10h - 11h     | Théorique | Conditions et boucles      | pas encore disponible |
@@ -36,3 +36,4 @@ Durant les lives nous allons aborder de façon théorique les différentes fonct
 - [Shine - Typo Playfair](https://fonts.google.com/specimen/Playfair+Display?category=Serif)
 - [Shine - Typo Rubik](https://fonts.google.com/specimen/Rubik?query=rubik&category=Sans+Serif)
 - [Convertisseur px - rem](https://nekocalc.com/fr/px-a-rem-convertisseur)
+- [Fonction sass "built-in"](https://sass-lang.com/documentation/modules/math)

@@ -1,3 +1,5 @@
+@use "../utils/_main" as utils
+
 .header
     display: flex
     padding: 1.5rem 0
@@ -16,3 +18,5 @@
     &__list
         display: flex
         column-gap: 1rem
+        @extend %paragraphe
+        @extend %text-grey

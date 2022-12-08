@@ -1,0 +1,25 @@
+@use "../utils/_main" as utils
+
+.button
+    border-radius: 1rem
+    padding: 0.5rem 1.5rem
+    font-weight: 500
+    @extend %paragraphe
+    display: flex
+    align-items: center
+
+    &:not(&--blue):hover
+        color: utils.$blue
+
+    &__icon
+        fill: inherit
+
+    &--blue
+        @extend .button
+        background-color: utils.$blue
+        color: utils.$white
+        transition: 0.5s ease-in
+        fill: utils.$white
+
+        &:hover
+            background-color: darken(utils.$blue, 20%)
