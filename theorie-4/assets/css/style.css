@@ -1,0 +1,31 @@
+.cercle {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  background-color: brown;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 800px) {
+  .cercle {
+    background-color: orange;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cercle {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cercle {
+    background-color: black;
+  }
+}
+
+.square {
+  background-color: green;
+  width: 4rem;
+  height: 2rem;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,13 @@
+@mixin circle($diametre: 100px, $bg: blue)
+    width: $diametre
+    height: $diametre
+    border-radius: 100%
+    background-color: $bg
+
+@mixin min-width($min-width)
+    @media screen and (min-width: $min-width)
+        @content
+
+@mixin phone
+    @media screen and (max-width: 600px)
+        @content

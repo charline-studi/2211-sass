@@ -1,0 +1,17 @@
+@use "../utils/_mixins" as mixins
+
+.cercle
+    @include mixins.circle($bg: brown, $diametre: 250px)
+    color: white
+    display: flex
+    align-items: center
+    justify-content: center
+
+    @include mixins.min-width(800px)
+        background-color: orange
+
+    @include mixins.min-width(1200px)
+        display: none
+
+    @include mixins.phone
+        background-color: black
