@@ -3,6 +3,44 @@
 .home-cover
     background-color: utils.$blue-light
 
+    &__container
+        @include utils.flex(flex-start)
+    
+    &__texts
+        flex-grow: 1
+        background-color: purple
+        padding-right: 5rem
+
+    &__paragraphe
+        @extend %top-s
+
+    &__cta
+        background-color: red
+        padding-right: 7.5rem
+        @extend %top-m
+
+    &__medias
+        width: 50%
+        position: relative
+        flex-shrink: 0
+        padding-left: 5rem
+
+    &__image
+        width: 100%
+        height: auto
+
+    &__play
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translateX(-50%) translateY(-50%)
+        fill: white
+        width: 5rem
+        height: 5rem
+        border-radius: 100%
+        background-color: utils.$grey-dark
+        @include utils.flex(center)
+
     &__title
         @extend %title-1
         @extend %text-grey-dark

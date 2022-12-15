@@ -22,6 +22,7 @@ ul {
 
 .home-cover__title {
   font-family: "Playfair Display", serif;
+  font-size: 2.5rem;
 }
 
 .button, .button--blue, .home-cover__paragraphe, .header__list {
@@ -39,6 +40,18 @@ ul {
 
 .home-cover__title span {
   color: #0c6cf3;
+}
+
+.button, .button--blue {
+  margin-top: 0.5rem;
+}
+
+.home-cover__paragraphe {
+  margin-top: 1rem;
+}
+
+.home-cover__cta {
+  margin-top: 2rem;
 }
 
 .header {
@@ -63,6 +76,46 @@ ul {
 
 .home-cover {
   background-color: #f1f7fd;
+}
+.home-cover__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.home-cover__texts {
+  flex-grow: 1;
+  background-color: purple;
+  padding-right: 5rem;
+}
+.home-cover__cta {
+  background-color: red;
+  padding-right: 7.5rem;
+}
+.home-cover__medias {
+  width: 50%;
+  position: relative;
+  flex-shrink: 0;
+  padding-left: 5rem;
+}
+.home-cover__image {
+  width: 100%;
+  height: auto;
+}
+.home-cover__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  fill: white;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  background-color: #17294d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 .button, .button--blue {
   border-radius: 1rem;
