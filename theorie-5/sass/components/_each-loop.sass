@@ -1,0 +1,20 @@
+// $sizes[0] = 30px
+// $sizes[1] = 40px
+// $sizes[2] = 50px
+$sizes: 30px, 40px, 50px
+
+.each-loop
+
+    // BOUCLE
+    // Pour les éléments HTML qui ont la classe XX
+    // Il faut attribuer la propriété CSS assignée dans ma liste
+
+    // Si tableau avec uniquement des valeurs : 
+    // @each $maNouvelleVariable in $monTableauDeVariables
+    // Si tableau avec une paire clé-valeur :
+    // @each $key, $value in $monTableauDeVariables
+
+    $types: ("error": red, "success": green, "warning": orange, "waiting": grey)
+    @each $className, $color in $types
+        .#{$className}
+            color: $color
