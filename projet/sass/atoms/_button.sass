@@ -1,12 +1,16 @@
 @use "../utils/_main" as utils
 
+@mixin hover($color)
+    &:hover
+        background-color: darken($color, 10%)
+
 .button
-    border-radius: 1rem
+    border-radius: 1.5rem
     padding: 0.5rem 1.5rem
     font-weight: 500
-    @extend %paragraphe
-    display: flex
-    align-items: center
+    transition: 0.5s ease-in
+    @extend %paragraphe-m
+    @include utils.flex(center)
     @extend %top-xs
 
     &:not(&--blue):hover
@@ -14,13 +18,18 @@
 
     &__icon
         fill: inherit
+        margin-left: 0.5rem
 
     &--blue
         @extend .button
         background-color: utils.$blue
         color: utils.$white
-        transition: 0.5s ease-in
         fill: utils.$white
+        @include hover(utils.$blue)
 
-        &:hover
-            background-color: darken(utils.$blue, 20%)
+    &--light-blue
+        @extend .button
+        background-color: utils.$blue-medium
+        color: utils.$blue
+        fill: utils.$blue
+        @include hover(utils.$blue-medium)

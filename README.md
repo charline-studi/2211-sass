@@ -28,7 +28,7 @@ Durant les lives nous allons aborder de façon théorique les différentes fonct
 | 07     | 13/12/2022 | 8h - 9h       | Théorique | Fonctions et mixins        | https://app.studi.fr/#/dashboard/events/43031/replay |
 | 08     | 15/12/2022 | 18h30 - 19h30 | Pratique  | "On recode Shine"          | https://app.studi.fr/#/dashboard/events/43032/replay |
 | 09     | 19/12/2022 | 10h - 11h     | Théorique | Conditions et boucles      | https://app.studi.fr/#/dashboard/events/43033/replay |
-| 10     | 22/12/2022 | 18h30 - 19h30 | Pratique  | "On recode Shine"          | pas encore disponible |
+| 10     | 22/12/2022 | 18h30 - 19h30 | Pratique  | "On recode Shine"          | https://app.studi.fr/#/dashboard/events/43034/replay |
 
 ## Ressources
 
